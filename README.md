@@ -1,8 +1,13 @@
 kendall-w
 ===============================
 
-version number: 0.0.1
-author: Ugo Loobuyck
+![version](https://img.shields.io/pypi/v/kendall-w?style=plastic)
+![python](https://img.shields.io/pypi/pyversions/kendall-w?style=plastic)
+![format](https://img.shields.io/pypi/format/kendall-w?style=plastic)
+![license](https://img.shields.io/pypi/l/kendall-w?style=plastic)
+![downloads](https://img.shields.io/pypi/dm/kendall-w?style=plastic)
+
+Author: Ugo Loobuyck
 
 Overview
 --------
