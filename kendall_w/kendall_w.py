@@ -1,4 +1,3 @@
-import pandas as pd
 import warnings
 
 def compute_w(arr):
@@ -45,7 +44,7 @@ def compute_w(arr):
 
     # Compute sum of each item ranks
     sums = [sum(x) for x in arr]
-    
+
     Rbar = sum(sums) / n
     S = sum([(sums[x] - Rbar) ** 2 for x in range(n)])
     W = (12 * S) / (m ** 2 * (n ** 3 - n))
