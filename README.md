@@ -31,4 +31,14 @@ TBD
 Example
 -------
 
-TBD
+```python
+from kendall_w.kendall_w import compute_w
+
+annotations = [
+        [1, 1, 1, 2],
+        [2, 2, 2, 3],
+        [3, 3, 3, 1],
+    ]
+
+W = compute_w(annotations) # returns 0.4375 (fair overall agreement)
+```
