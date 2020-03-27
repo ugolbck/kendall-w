@@ -20,7 +20,7 @@ dependency_links = [x.strip().replace('git+', '') for x in all_reqs if x.startsw
 setup(
     name='kendall-w',
     version=__version__,
-    description='Computes Kendall's coefficient of concordance',
+    description='Computes Kendall\'s coefficient of concordance',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/ugolbck/kendall-w',
