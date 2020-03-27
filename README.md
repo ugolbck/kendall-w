@@ -7,7 +7,8 @@ author: Ugo Loobuyck
 Overview
 --------
 
-Computes Kendall's coefficient of concordance
+Computes Kendall's coefficient of concordance for inter-annotator agreement
+in the case of item ranking.
 
 Installation / Usage
 --------------------
