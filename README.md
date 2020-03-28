@@ -1,5 +1,4 @@
 kendall-w
-===============================
 
 ![version](https://img.shields.io/pypi/v/kendall-w?style=plastic)
 ![python](https://img.shields.io/pypi/pyversions/kendall-w?style=plastic)
@@ -27,11 +26,7 @@ Or clone the repo:
 
     $ git clone https://github.com/ugolbck/kendall-w.git
     $ python setup.py install
-    
-Contributing
-------------
 
-TBD
 
 Example
 -------
