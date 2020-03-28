@@ -1,4 +1,5 @@
 kendall-w
+==========
 
 ![version](https://img.shields.io/pypi/v/kendall-w?style=plastic)
 ![python](https://img.shields.io/pypi/pyversions/kendall-w?style=plastic)
@@ -6,7 +7,9 @@ kendall-w
 ![license](https://img.shields.io/pypi/l/kendall-w?style=plastic)
 ![downloads](https://img.shields.io/pypi/dm/kendall-w?style=plastic)
 
-Author: Ugo Loobuyck
+Author: **Ugo Loobuyck**
+
+*All contributions are welcome.*
 
 Overview
 --------
