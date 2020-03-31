@@ -9,8 +9,6 @@ kendall-w
 
 Author: **Ugo Loobuyck**
 
-*All contributions are welcome.*
-
 Overview
 --------
 
@@ -45,3 +43,14 @@ annotations = [
 
 W = compute_w(annotations) # returns 0.4375 (fair overall agreement)
 ```
+
+Contributions
+-------------
+
+*All contributions are welcome.*
+
+TODO:
+
+- Handle ```pandas.DataFrame``` as an input with the instructions in (https://github.com/ugolbck/kendall-w/blob/master/kendall_w/kendall_w.py)
+- Write unit tests for compute_w function
+- Write code and unit tests for Kendall's tau function ?

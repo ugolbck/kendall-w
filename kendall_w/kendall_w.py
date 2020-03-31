@@ -10,14 +10,14 @@
 # - Check that items are RANKED for each annotator:
 #       -> Exception or Warning ?
 
-
+import pandas as pd
 import warnings
 
 def compute_w(arr):
     """ Computes kendall's W from a list of rating lists.
     0 indicates no agreement and 1 indicates unanimous agreement.
     
-    Arguments
+    Parameters
     ---------
 
     arr : list
