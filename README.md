@@ -33,7 +33,7 @@ Example
 -------
 
 ```python
-from kendall_w.kendall_w import compute_w
+from kendall_w import 
 
 annotations = [
         [1, 1, 1, 2],
