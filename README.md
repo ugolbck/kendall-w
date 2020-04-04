@@ -1,11 +1,9 @@
 kendall-w
 ==========
 
-![version](https://img.shields.io/pypi/v/kendall-w?style=plastic)
-![python](https://img.shields.io/pypi/pyversions/kendall-w?style=plastic)
-![format](https://img.shields.io/pypi/format/kendall-w?style=plastic)
-![license](https://img.shields.io/pypi/l/kendall-w?style=plastic)
-![downloads](https://img.shields.io/pypi/dm/kendall-w?style=plastic)
+![version](https://img.shields.io/pypi/v/kendall-w)
+![python](https://img.shields.io/pypi/pyversions/kendall-w)
+![downloads](https://pepy.tech/badge/kendall-w)
 
 Author: **Ugo Loobuyck**
 
@@ -13,10 +11,10 @@ Overview
 --------
 
 Computes Kendall's coefficient of concordance for inter-annotator agreement
-in the case of item ranking.
+in the case of item ranking between more than two annotators.
 
-Installation / Usage
---------------------
+Installation
+------------
 
 To install use pip:
 
@@ -29,7 +27,7 @@ Or clone the repo:
     $ python setup.py install
 
 
-Example
+Usage
 -------
 
 ```python
@@ -49,8 +47,15 @@ Contributions
 
 *All contributions are welcome.*
 
-TODO:
+#### How to help?
 
-- Handle ```pandas.DataFrame``` as an input with the instructions in (https://github.com/ugolbck/kendall-w/blob/master/kendall_w/kendall_w.py)
+1. Fork this repository to your GitHub account
+2. Clone the forked repositery to local
+3. Code something and push to your branch
+4. Create a pull request from your repository
+
+#### TODO:
+
+- Handle ```pandas.DataFrame``` as an input with the instructions in [the main file](https://github.com/ugolbck/kendall-w/blob/master/kendall_w/kendall_w.py)
 - Write unit tests for compute_w function
 - Write code and unit tests for Kendall's tau function ?
