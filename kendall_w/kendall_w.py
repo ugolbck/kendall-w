@@ -10,7 +10,7 @@
 # - Check that items are RANKED for each annotator:
 #       -> Exception or Warning ?
 
-import pandas as pd
+# import pandas as pd
 import warnings
 
 def compute_w(data):

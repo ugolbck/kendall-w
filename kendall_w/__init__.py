@@ -5,4 +5,4 @@ from .kendall_w import compute_w
 # `from kendall_w import compute-w`
 
 __all__ = ['kendall_w']
-__version__ = (0, 0, 2)
+__version__ = (0, 0, 3)

@@ -31,7 +31,7 @@ Usage
 -------
 
 ```python
-from kendall_w import 
+import kendall_w as kw
 
 annotations = [
         [1, 1, 1, 2],
@@ -39,7 +39,7 @@ annotations = [
         [3, 3, 3, 1],
     ]
 
-W = compute_w(annotations) # returns 0.4375 (fair overall agreement)
+W = kw.compute_w(annotations) # returns 0.4375 (fair overall agreement)
 ```
 
 Contributions
