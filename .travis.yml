@@ -15,7 +15,7 @@ install:
 
 # Run the unit test
 script:
-  - coverage run tests/test_w.py
+  - coverage run -m unittest discover
 
 # Push the results back to codecov
 after_success:
