@@ -17,7 +17,9 @@ class TestComputeW(unittest.TestCase):
         self.assertEqual(compute_w(self.perfect_disagg), 0)
 
     def test_input_types(self):
-        pass
+        data = [[1], [2], [3]]
+        with self.assertRaises(ValueError):
+            compute_w(data)
 
     def test_diff_list_elem(self):
         pass
