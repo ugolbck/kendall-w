@@ -2,6 +2,8 @@ kendall-w
 ==========
 
 ![version](https://img.shields.io/pypi/v/kendall-w)
+[![codecov](https://codecov.io/gh/ugolbck/kendall-w/branch/master/graph/badge.svg)](https://codecov.io/gh/ugolbck/kendall-w)
+[![Build Status](https://travis-ci.com/ugolbck/kendall-w.svg?branch=master)](https://travis-ci.com/ugolbck/kendall-w)
 ![python](https://img.shields.io/pypi/pyversions/kendall-w)
 ![downloads](https://pepy.tech/badge/kendall-w)
 
