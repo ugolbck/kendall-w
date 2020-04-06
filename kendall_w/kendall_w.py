@@ -59,7 +59,7 @@ def compute_w(data):
     if m == 2:
         warnings.warn("Kendall's W is adapted to measure agreement between\
             more than two annotators. The results might not be reliable in\
-            this case.")
+            this case.", Warning)
 
     # Number of items
     n = len(data)
@@ -76,4 +76,5 @@ def compute_w(data):
     S = sum([(sums[x] - Rbar) ** 2 for x in range(n)])
 
     W = (12 * S) / (m ** 2 * (n ** 3 - n))
+
     return W
