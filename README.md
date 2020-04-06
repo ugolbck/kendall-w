@@ -59,5 +59,4 @@ Contributions
 #### TODO:
 
 - Handle ```pandas.DataFrame``` as an input with the instructions in [the main file](https://github.com/ugolbck/kendall-w/blob/master/kendall_w/kendall_w.py)
-- Write unit tests for compute_w function
-- Write code and unit tests for Kendall's tau function ?
+- Use numpy for faster computation?

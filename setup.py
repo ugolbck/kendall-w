@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 from codecs import open
 from os import path
 
-__version__ = '0.0.3'
+__version__ = '1.0.0'
 
 here = path.abspath(path.dirname(__file__))
 
@@ -27,13 +27,16 @@ setup(
     download_url='https://github.com/ugolbck/kendall-w/tarball/' + __version__,
     license='BSD',
     classifiers=[
-      'Development Status :: 3 - Alpha',
+      'Development Status :: 5 - Production/Stable',
       'Intended Audience :: Developers',
       'Programming Language :: Python :: 3',
+      'Programming Language :: Python :: 3.5',
       'Programming Language :: Python :: 3.6',
+      'Programming Language :: Python :: 3.7',
       'Programming Language :: Python :: 3.8',
+      'Topic :: Scientific/Engineering :: Mathematics',
     ],
-    keywords='',
+    keywords=['kendall', 'annotator', 'agreement', 'rank', 'metric'],
     packages=find_packages(exclude=['docs', 'tests*']),
     include_package_data=True,
     author='Ugo Loobuyck',
