@@ -10,8 +10,11 @@ class TestComputeW(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def test_result(self):
+    def test_perfect_result(self):
         self.assertEqual(compute_w(self.perfect_agg), 1)
+    
+    def test_worst_result(self):
+        self.assertEqual(compute_w(self.perfect_disagg), 0)
 
     def test_input_types(self):
         pass
