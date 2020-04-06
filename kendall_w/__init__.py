@@ -1,4 +1,4 @@
-from .kendall_w import compute_w
+# from .kendall_w import compute_w
 
 # Next version: usage goes from 
 # `from kendall_w.kendall_w import compute_w` to
