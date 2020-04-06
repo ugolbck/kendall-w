@@ -1,5 +1,5 @@
 import unittest
-from kendall_w.kendall_w import compute_w
+from kendall_w import compute_w
 
 class TestComputeW(unittest.TestCase):
 
