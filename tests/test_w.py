@@ -1,5 +1,5 @@
 import unittest
-from kendall_w import *
+# from kendall_w import 
 
 class TestComputeW(unittest.TestCase):
 
