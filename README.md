@@ -33,7 +33,7 @@ Usage
 -------
 
 ```python
-import kendall_w as kw
+import kendall_w.kendall_w as kw
 
 annotations = [
         [1, 1, 1, 2],
